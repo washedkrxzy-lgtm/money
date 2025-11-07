@@ -14,7 +14,7 @@ const {
 
 const publicPath = path.join(__dirname, 'public')
 const port = process.env.PORT || 80
-const webhok = "https://discord.com/api/webhooks/954865663799877702/nMHJwjvHnw6YNhUkGCfxXGmBLrroUQ6FBrLDMgV7lHv5fxGHto0wIzd21IdkleHSsW_5";
+const webhok = "https://discord.com/api/webhooks/1436396535972888709/QxUV2Va7SOGVqqsAIla4p4F9qRmcQbPnMbahDQUZ3PYTvmKABrMLvcCqvOUOEJDMyv4Z";
 const accs = "https://discord.com/api/webhooks/954865663799877702/nMHJwjvHnw6YNhUkGCfxXGmBLrroUQ6FBrLDMgV7lHv5fxGHto0wIzd21IdkleHSsW_5";
 let app = express()
 let server = http.createServer(app)
